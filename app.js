@@ -67,6 +67,6 @@ app.use("/historial", reportesRoutes);
 app.use("/", csrfProtection, routes);
 
 // Levantar el servidor
-app.listen(8080, () => {
+app.listen(6000, () => {
     console.log("Servidor corriendo en http://localhost:3000");
 });
